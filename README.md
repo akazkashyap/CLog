@@ -27,11 +27,16 @@
 `$ python manage.py runserver`
 
 
+
+###Screenshots
+
+
 ###EndPoints
 
 ####User
 
-> - Login : 
+> 
+- Login : 
 	+ Request : **POST**
 	+ Endpint :  "auth/login"
 	+ Fields(required) : 
@@ -50,7 +55,6 @@
 	+ Endpint : "auth/logout"
 	
 ####Post
-
 * List all posts
 	+ Request : **GET**
 	+ Endpint :  "posts/"
@@ -79,7 +83,8 @@
 	
 ####Comment
                 
-> + Comment a post
+> 
++ Comment a post
 	+ Request : **POST**
 	+ Endpint (Login required) :  "posts/{post_id}/comment"
 	+ Fields(required) :
@@ -98,7 +103,7 @@
 	+ Endpint (Login required) :  "posts/comment//{comment_id}"
 
 ####Like
-
+>                 
 + Like a post
 	+ Request : **POST**
 	+ Endpint (Login required) :  "posts/{post_id}/like"
@@ -109,6 +114,5 @@
 	+ Request : **GET**
 	+ Endpint (Login required) :  "posts/{post_id}/like"
 
-###Screenshots
 
 ###End
