@@ -21,6 +21,7 @@
 
 
 ###Start code
+
 `$ python manage.py migrate`
 
 `$ python manage.py runserver`
@@ -49,6 +50,7 @@
 	+ Endpint : "auth/logout"
 	
 ####Post
+
 * List all posts
 	+ Request : **GET**
 	+ Endpint :  "posts/"
@@ -96,7 +98,7 @@
 	+ Endpint (Login required) :  "posts/comment//{comment_id}"
 
 ####Like
->                 
+
 + Like a post
 	+ Request : **POST**
 	+ Endpint (Login required) :  "posts/{post_id}/like"
