@@ -12,14 +12,6 @@
 
 
 
-
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
-
 ### Start code
 
 `$ python manage.py migrate`
