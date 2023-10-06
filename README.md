@@ -33,7 +33,7 @@
 
 ### EndPoints
 
-#### User
+### User
 
 > 
 - Login : 
@@ -54,7 +54,7 @@
 	+ Request : **POST**
 	+ Endpint : "auth/logout"
 	
-#### Post
+### Post
 * List all posts
 	+ Request : **GET**
 	+ Endpint :  "posts/"
@@ -81,7 +81,7 @@
 	+ Request : **GET**
 	+ Endpint (Login Required) :  "/posts/like"
 	
-#### Comment
+###Comment
                 
 > 
 + Comment a post
@@ -102,7 +102,7 @@
 	+ Request : **GET**
 	+ Endpint (Login required) :  "posts/comment//{comment_id}"
 
-#### Like
+### Like
 >                 
 + Like a post
 	+ Request : **POST**
